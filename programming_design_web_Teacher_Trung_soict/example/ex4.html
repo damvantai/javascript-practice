@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+	<title>ex4</title>
+</head>
+<script type="text/javascript">
+	function KiemTra() {
+		if (frm.NoiDung.value.length > 200) {
+			alert("Ban da go qua so ky tu cho phep!");
+		}
+		frm.SoKyTu.value = frm.NoiDung.value.length;
+	}
+</script>
+<body style="font-family: arial">
+	<form name="frm">
+		So ky tu da go: <input type="text" name="SoKyTu"><BR>
+		<textarea name="NoiDung" cols="50" rows="10" onKeyUp="KiemTra();"></textarea>
+	</form>
+</body>
+</html>
