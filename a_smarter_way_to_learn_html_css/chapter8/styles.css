@@ -1,0 +1,104 @@
+p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	/*FONT-SIZE: 1.5em;*/
+}
+p.important {
+	FONT-SIZE: 1.5em;
+}
+h1 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 2em;
+}
+.typewriter {
+	font-family: "Courier New", Courier, monospace;
+}
+h2 {
+	letter-spacing: .1em;
+}
+h2 {
+	letter-spacing: -.05em;
+}
+h2 {
+	letter-spacing: 0;
+}
+
+h2 {
+	word-spacing: 1em;
+}
+
+p.more-readable {
+	line-height: 2em;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: left;
+}
+
+.date-style {
+	text-align: right;
+}
+
+p.pretty {
+	text-align: justify;
+}
+
+p {
+	text-indent: 0;
+}
+
+p.offset {
+	margin: 2em 2em 2em 2em;
+}
+
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	color: darkslategray;
+}
+
+h1, h3, h5 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+h1, h5 {
+	color: #333333;
+}
+h3 {
+	color: #999999;
+}
+p.extra-special {
+	font-style: italic;
+}
+.extra-special {
+	font-style: italic;
+}
+p#mission-statement {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	color: darkblue;
+}
+img.smack-in-the-middle {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.wrap-around-the-right-side {
+	float: left;
+}
+
+img.r-float {
+	float: right;
+}
+
+img.wrap-around-the-right-side {
+	float: left;
+	margin: 0 .85em .75em 0;
+}
+
+/*<a href="http://www.stackoverflow.com">Stack Overfloa*/

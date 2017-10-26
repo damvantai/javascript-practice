@@ -1,0 +1,11 @@
+p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 4em;
+}
+p.important {
+	font-size: 9em;
+}
+h1 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 2em;
+}
